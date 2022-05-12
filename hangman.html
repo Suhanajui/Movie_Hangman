@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Movie Hangman</title>
+    <link rel="stylesheet" href="hangman.css">
+    <link rel="shortcut icon" 
+          href="https://mitchum.blog/wp-content/uploads/2019/05/favicon.png" />
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=GjzY-NAUseHlhY3qRoELYDgy05d8YTVLlkT8U9GR1ogAIRvgOg15uFbjYsdEIpNj3MBZ8Il0QKuLIKivZzpJjUgt2TD5prcYiwCzbfO7D1A" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9taXRjaHVtLmJsb2cvZ2FtZXMvaGFuZ21hbi9oYW5nbWFuLmh0bWw"/></head>
+  <body>
+    <main>
+      <h1>Movie Hangman</h1>
+      
+      <div id="gallows">
+        <img style="padding-left: 70px" id="hangmanImage" src="img/hangman0.png">
+      </div>
+      <div id="word"></div>
+      <br>
+      <div id="controls">
+        <input type="text" id="guessBox">
+        <button id="guessWordButton" class="button" onclick="guessWord( game )">Guess Word</button>
+        <button id="newGameButton" class="button" onclick="newGame();">New Game</button>
+        <br>
+        <br>
+      </div>
+      <br>
+      <div id="guesses"></div>
+    </main>   
+   <script src="hangman.js"></script>
+  </body>
+</html>
